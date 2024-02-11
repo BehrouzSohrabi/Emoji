@@ -28,36 +28,36 @@ The data is stored in a JSON file with the following structure:
 **emoji-list-categories.json**
 ```json
 {
-	"Smileys & Emotion": [
-		{
-			"emoji": "😀",
-			"unicode": "U+1F600",
-			"text": "grinning face",
-			"subcategory": "face-smiling",
-			"keywords": [
-				"face",
-				"grin",
-				"grinning face"
-			]
-		},
+  "Smileys & Emotion": [
+    {
+      "emoji": "😀",
+      "unicode": "U+1F600",
+      "text": "grinning face",
+      "subcategory": "face-smiling",
+      "keywords": [
+        "face",
+        "grin",
+        "grinning face"
+      ]
+    },
   // ... more emoji entries
 ```
 
 **emoji-list-categories-subcategories.json**
 ```json
 {
-	"Smileys & Emotion": {
-		"face-smiling": [
-			{
-				"emoji": "😀",
-				"unicode": "U+1F600",
-				"text": "grinning face",
-				"keywords": [
-					"face",
-					"grin",
-					"grinning face"
-				]
-			},
+  "Smileys & Emotion": {
+    "face-smiling": [
+      {
+        "emoji": "😀",
+        "unicode": "U+1F600",
+        "text": "grinning face",
+        "keywords": [
+          "face",
+          "grin",
+          "grinning face"
+        ]
+      },
   // ... more emoji entries
 ```
 
