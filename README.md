@@ -29,7 +29,7 @@ The data is stored in a JSON file with the following structure:
 To use this data in your JavaScript code, you can import the JSON file and search through the emojis based on keywords, Unicode, or text representation.
 
 ```js
-const emojis = require('./path-to-emoji.json');
+const emojis = require('./path-to/emoji-list.json');
 
 // Example: Find an emoji by keyword
 const keyword = 'smile';
@@ -44,7 +44,7 @@ In Python, you can load the JSON file using the json module and perform similar 
 import json
 
 # Load the emoji data
-with open('path-to-emoji.json', 'r') as file:
+with open('path-to/emoji-list.json', 'r') as file:
     emojis = json.load(file)
 
 # Example: Find an emoji by keyword
