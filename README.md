@@ -40,7 +40,7 @@ The data is stored in a JSON file with the following structure:
         "grinning face"
       ]
     },
-  // ... more emoji entries
+    // ... more emoji entries
 ```
 
 **emoji-list-categories-subcategories.json**
@@ -58,7 +58,7 @@ The data is stored in a JSON file with the following structure:
           "grinning face"
         ]
       },
-  // ... more emoji entries
+      // ... more emoji entries
 ```
 
 ## How to Use
